@@ -2,7 +2,7 @@
 
 > 这张是自己画的一个Java后端技术栈的思维导图，想去大厂的基本都要会。
 
-![Java backend](.\images\Java backend.png)
+![Java backend](./images/Java backend.png)
 
 [TOC]
 
@@ -53,11 +53,11 @@
      > 3. JVM 底层采用“内存屏障”来实现 `volatile` 语义，**防止指令重排序**。
 
 4. **Java内存模型（JMM）**
-     > ![](.\images\15193024_vxfh.jpg)
+     > ![](./images/15193024_vxfh.jpg)
      >
      > 
      >
-     > ![](.\images\jvm_memory_thread.png)
+     > ![](./images/jvm_memory_thread.png)
 
 5. HashMap是不是线程安全?如何体现？如何变得安全？
 
@@ -130,7 +130,7 @@
 - 访问者模式。
 
 ### 代理模式
-![proxy](.\images\proxy.png)
+![proxy](./images/proxy.png)
 
 **应用：** Spring AOP主要实现方式
 可看做是对源程序加壳处理。代理模式可分为静态代理和动态代理。
@@ -194,18 +194,18 @@ public enum Singleton {
 ###  建造者模式
 
 
-![builder](D:\Coding\git repo\java-backend-interview-preparation\images\builder.png)
+![builder](D:/Coding/git repo/java-backend-interview-preparation/images/builder.png)
 **思想：**对象和对象创建过程分离解耦。由于抽象的Builder类的存在，使得创建人不需要清楚知道待创建对象的细节，只需要关注创建的过程。通过Director来隔离客户和生产过程。通过Director类就能够完全创建出一个复杂对象。
 
 ### 工厂三兄弟
 **简单工厂**
-![simplefactory](.\images\simplefactory.png)
+![simplefactory](./images/simplefactory.png)
 
 **工厂方法**
-![factory2](.\images\factory2.png)
+![factory2](./images/factory2.png)
 
 **抽象工厂**
-![factory3](.\images\factory3.png)
+![factory3](./images/factory3.png)
 
 
 简单工厂：一个工厂负责创建多个抽象的实例。
@@ -213,7 +213,7 @@ public enum Singleton {
 抽象工厂：针对于更多类的产品。一个工厂负责一类产品的创建。
 
 ### 原型模式
-![yuanxing](.\images\yuanxing.png)
+![yuanxing](./images/yuanxing.png)
 主要是用于对象的复制。一般直接实现`Cloneable`的`clone()`方法即可。
 
 
